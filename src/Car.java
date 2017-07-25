@@ -8,51 +8,40 @@ public class Car {
     private int year;
     private double price;
 
+
     public Car () {
-       carMake = "";
-        carModel = "";
-        year = 0;
-       price = 1.0;
+       this.carMake = "";
+        this.carModel = "";
+        this.year = 0;
+       this.price = 1.0;
     }
-
-    public Car (String ma, String mo, int y, double p){
-        carMake = ma;
-        carModel = mo;
-        year = y;
-        price = p;
-
-    }   public String getCarMake() {
+    public String getCarMake() {
         return carMake;
     }
-
+    public void setcarMake(String carMake){
+        this.carMake = carMake;
+    }
     public String getCarModel() {
         return carModel;
     }
-
+    public void setcarModel(String carModel){
+        this.carModel = carModel;
+    }
     public int getYear() {
         return year;
     }
-
+    public void setYear(int year){
+        this.year = year;
+    }
     public double getPrice() {
         return price;
     }
-    public void setCarMake(String ma){
-        carMake = ma;
-        this.carMake = carMake;
-
-    }
-    public void setCarModel(String mo){
-        carModel = mo;
-        this.carModel = carModel;
-    }
-    public void setPrice(double p){
-        price = p;
+    public void setPrice(double price){
         this.price = price;
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return year + "\t" + carMake + "\t" + carModel + "\t" + price;
+    }
 }

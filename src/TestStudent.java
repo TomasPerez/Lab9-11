@@ -7,10 +7,10 @@ public class TestStudent {
     public  static void main(String [] args){
         // instantiate a couple instances of Student
         // this calls the no-argument version of the constuctor
-        Student student1 = new Student();
-        student1.setFirstName("Allie");
-        student1.setLastName("Born");
+     //   Student student1 = new Student();
+       // student1.setFirstName("Allie");
+     //   student1.setLastName("Born");
 
-        Student student2 = new Student ("Abby", "Death", "TechHire", 666, 1.0);
+     //   Student student2 = new Student ("Abby", "Death", "TechHire", 666, 1.0);
     }
 }

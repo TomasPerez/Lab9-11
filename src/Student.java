@@ -1,17 +1,17 @@
 /**
  * Created by DELL on 7/20/2017.
  */
-public class Student {
+//public class Student {
     // object: a bundle of data and behaviors
 
     //data: instance variables (member variable, fields)
     // these exist outside of methods--hold for
     //entire lifetime of the class
-    private String firstName;
-    private String lastName;
-    private String bootCamp;
-     private int id;
-    private double grade;
+   // private String firstName;
+   // private String lastName;
+    //private String bootCamp;
+     //private int id;
+    //private double grade;
 
     //behavior/methods
     //as a general rule, public
@@ -27,23 +27,23 @@ public class Student {
     // to default values
 
     // no arguments constuctor
-    public Student (){
-        firstName = "";
-        lastName = "";
-        bootCamp = "";
-        id = 42;
-        grade = 1.0;
-    }
+    //public Student (){
+      //  firstName = "";
+        //lastName = "";
+       // bootCamp = "";
+       // id = 42;
+       // grade = 1.0;
+    //
 
     // all-arguments constuctor
-    public Student (String fn, String ln, String bc, int id, double g){
-        firstName = fn;
-        lastName = ln;
-        bootCamp = bc;
-        id = i;
-        grade = g;
+   // public Student (String fn, String ln, String bc, int id, double g){
+     //   firstName = fn;
+      ///  lastName = ln;
+      //  bootCamp = bc;
+       // id = i;
+       // grade = g;
 
-    }
+   // }
 
 
     //getters (accessors) provide public view access to
@@ -56,32 +56,32 @@ public class Student {
     //the private instance variable
 
 
-    public String getfirstName() {
-        return firstName;
-    }
+    //public String getfirstName() {
+        //return firstName;
+    //}
 
-    public String getlastName(){
-        return lastName;
-    }
+    //public String getlastName(){
+      //  return lastName;
+   // }
 
-    public String getBootCamp(){
-        return bootCamp;
-    }
-     public int getid(){
-        return id;
-     }
-     public double getGrade(){
-         return grade;
-     }
+   // public String getBootCamp(){
+     //   return bootCamp;
+    //}
+    // public int getid(){
+      //  return id;
+    // }
+    // public double getGrade(){
+      //   return grade;
+    // }
     // setters (mutators) provide public write access to
     // private instance vaiables
 
-    public void setFirstName(String fn){
+   // public void setFirstName(String fn){
          //I need to capture the value from the argument
         //which is going out of the scope soon
         //
-        public void setLastname(String lastName){
+     //   public void setLastname(String lastName){
             // this key word refers to the
-        }
-    }
-}
+      //  }
+ //   }
+//}
